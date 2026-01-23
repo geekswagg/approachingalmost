@@ -36,7 +36,7 @@ opt-einsum==3.2.1
 pandas==1.0.5
 paramiko==2.7.1
 protobuf==3.12.2
-pyasn1==0.4.8
+pyasn1==0.6.2
 pyasn1-modules==0.2.8
 pycparser==2.20
 pynacl==1.4.0
@@ -61,7 +61,7 @@ tensorflow-estimator==2.2.0
 termcolor==1.1.0
 texttable==1.6.2
 threadpoolctl==2.1.0
-torch==1.5.1
+torch==2.10.0
 tqdm==4.47.0
 urllib3==1.25.9
 websocket-client==0.57.0
@@ -69,3 +69,4 @@ werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.1.0
 
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
